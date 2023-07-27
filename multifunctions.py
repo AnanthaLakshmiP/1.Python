@@ -31,12 +31,12 @@ class multifunctions():
         
         
     def percentage():
-        mark=int(input("Subject1="))
-        mark=int(input("Subject2="))
-        mark=int(input("Subject3="))
-        mark=int(input("Subject4="))
-        mark=int(input("Subject5="))
-        add=Subject1+Subject2+Subject3+Subject4+Subject5
+        mark1=int(input("Subject1="))
+        mark2=int(input("Subject2="))
+        mark3=int(input("Subject3="))
+        mark4=int(input("Subject4="))
+        mark5=int(input("Subject5="))
+        add=mark1+mark2+mark3+mark4+mark5
         print("Total:",add)
         per=add/5
         print("Percentage:",per)
@@ -45,11 +45,11 @@ class multifunctions():
         H=int(input("Height:"))
         B=int(input("Breadth:"))
         print("Area Formula: Height*Breadth/2")
-        f=(Height*Breadth)/2
+        f=(H*B)/2
         print("Area of Formula:",f)
-        H=int(input("Height1:"))
-        H=int(input("Height2:"))
-        B=int(input("Breadth:"))
+        H1=int(input("Height1:"))
+        H2=int(input("Height2:"))
+        B1=int(input("Breadth:"))
         print("Perimeter Formula:Height1+Height2+Breadth2")
-        add=Height1+Height2+Breadth2
+        add=H1+H2+B1
         print("Perimeter of Triangle:",add)
